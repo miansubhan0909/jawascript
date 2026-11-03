@@ -38,13 +38,11 @@ const input = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-
 // User se sawal poochte hain.
 // User ka jawab favoriteColor variable mein save ho jata hai.
 input.question("What is your favorite color? ", (favoriteColor) => {
   // Ab user ka diya hua jawab screen par dikhate hain.
   console.log("Nice! You like " + favoriteColor + ".");
-
   // Kaam khatam hone ke baad input ko band kar dete hain.
   input.close();
 });
