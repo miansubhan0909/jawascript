@@ -249,7 +249,7 @@ console.log("Question 3 - typeof number:", typeof 100);
 console.log("Question 3 - typeof null:", typeof null); // JavaScript ka old behavior: object
 
 let outputScore = 10;
-outputScore += 5;
+outputScore += 5;         
 outputScore *= 2;
 outputScore -= 10;
 console.log("Question 4:", outputScore); // 20
