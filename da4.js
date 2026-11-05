@@ -253,7 +253,7 @@ outputScore += 5;
 outputScore *= 2;
 outputScore -= 10;
 console.log("Question 4:", outputScore); // 20
-
+     
 console.log("Question 5 - AND:", 5 > 3 && 10 < 20);
 console.log("Question 5 - OR:", 5 > 10 || 10 < 20);
 console.log("Question 5 - NOT:", !true);
