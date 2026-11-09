@@ -18,3 +18,9 @@ console.log(ispass);//boleian data type value is true or fasle
 // jawascript is a dynamic type language for exapmle (dynamic means at the run time it has calculate the value of variables k wo kis data type k ha)
 fullname=3000;
 console.log(fullname);// now we change its value and its easily change
+/* -- using var declare variable  disadvatages
+var age =23;
+var age =24;
+var age=50;
+console.log(age)  // the output is 50 as last change so it is the problem of var
+*/
