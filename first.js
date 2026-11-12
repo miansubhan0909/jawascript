@@ -24,3 +24,59 @@ var age =24;
 var age=50;
 console.log(age)  // the output is 50 as last change so it is the problem of var
 */
+// let use to declared variable  its scope is block
+//let age =20;
+age=34; // again assign value is allow but redeclared not allow
+//const its also scope is block
+const fathername="khalid";// its value not change our not redeclared
+// permtive and non premtive data types
+const student = {
+f_name: "subhan",     // key:value
+cnic: 12344342343,
+isalive: true
+}
+// prompt in js
+// let phone_no=prompt("Enter your number")
+// console.log("the no you enter from the prompt is ",phone_no);
+// if (phone_no%5===0) {
+//     console.log("it is the multiple of 5");
+    
+// } else {
+//     console.log("no is not multiple of 5");
+// }
+// score cheaking
+console.log("cheaking the grade by the input of user");
+for(let i=1;i<50;i++)
+{
+    console.log("hellow !");
+}
+    console.log("loop is end !");
+// while loop
+let i=0
+while (i<=10) {
+    console.log(" college");
+     i++;
+}
+// string indexing
+let str="subhan";
+console.log(str[0]);
+console.log(str[1]);
+console.log(str[2]);
+console.log(str[3]);
+console.log(str[4]);
+console.log(str[5]);
+// string slicing
+let str1="pakistan";
+console.log(str.slice(1,3))
+let str2="Zindabad";
+
+let nationlity=console.log(str.concat(str2))
+nationlity=console.log(str1+str2);
+// array
+let marks=[12,13,14,15,16];
+console.log(marks);
+console.log(marks.length);
+console.log(typeof(marks));
+console.log(marks.slice(1,2))// slice(start value,end vlaue)
+
+console.log(marks.splice(2,2,112,113))  
