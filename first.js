@@ -79,3 +79,4 @@ console.log(marks.length);
 console.log(typeof(marks));
 console.log(marks.slice(1,2))// slice(start value,end vlaue)
 console.log(marks.splice(2,2,112,113))               
+                                          
