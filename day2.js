@@ -39,9 +39,9 @@ const number = 25;
 console.log("Square:", number ** 2);
 console.log("Square root:", Math.sqrt(number));
 
-// 12. Predict the output of a program using different operators.
-const a = 8;
-const b = 3;
+// 12. Predict the output of a program using different operators.//                                
+const a = 8;                                                                                  
+const b = 3;                                           
 console.log("Addition:", a + b);
 console.log("Subtraction:", a - b);
 console.log("Multiplication:", a * b);
