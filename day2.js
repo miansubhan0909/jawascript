@@ -9,7 +9,11 @@ const isStudent = true;
 const emptyValue = null;
 let notAssigned;
                                                                 
-c
+console.log("studentName:", typeof studentName);
+console.log("studentAge:", typeof studentAge);
+console.log("isStudent:", typeof isStudent);
+console.log("emptyValue:", typeof emptyValue);
+console.log("notAssigned:", typeof notAssigned);
 
 // 8. Convert a string into uppercase and lowercase.
 const message = "JavaScript is easy";
