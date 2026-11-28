@@ -1,5 +1,7 @@
 
-
+// 7. Convert the string "100" into a number.
+const numberFromString = Number("100");
+console.log("Number:", numberFromString);
 // Check the data types of five different variables.
 const studentName = "Subhan";
 const studentAge = 20;
