@@ -31,3 +31,19 @@ console.log("firstNumber === secondNumber:", firstNumber === secondNumber);
 const hasIdCard = true;
 const hasTicket = false;
 console.log("AND:", hasIdCard && hasTicket);
+console.log("OR:", hasIdCard || hasTicket);
+console.log("NOT:", !hasTicket);
+
+// 11. Calculate a number's square and square root.
+const number = 25;
+console.log("Square:", number ** 2);
+console.log("Square root:", Math.sqrt(number));
+
+// 12. Predict the output of a program using different operators.//                                
+const a = 8;                                                                                  
+const b = 3;                                           
+console.log("Addition:", a + b);
+console.log("Subtraction:", a - b);
+console.log("Multiplication:", a * b);
+console.log("Division:", a / b); 
+console.log("Remainder:", a % b);
