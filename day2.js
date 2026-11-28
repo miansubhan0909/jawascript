@@ -8,7 +8,7 @@ const studentAge = 20;
 const isStudent = true;
 const emptyValue = null;
 let notAssigned;
-                       
+                                                                
 console.log("studentName:", typeof studentName);
 console.log("studentAge:", typeof studentAge);
 console.log("isStudent:", typeof isStudent);
